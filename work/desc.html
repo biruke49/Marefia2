@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--Code by Divinector (www.divinectorweb.com)-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marefia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styled.css">    
+</head>
+<body>
+    <header>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="https://i.postimg.cc/mg4rWBmv/logo.png" alt="">
+        </div>
+<ul class="nav-area">
+<li><a href="maps.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="places.html">Places</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li class="property"><a href="#">Post Property</a></li>
+</ul>
+</div>
+
+</header>
+<h1 class="titlee">Image Name</h1><br/>
+<div class="product">
+    <div class="product-small-img">
+
+        <img src="images.jpg" onclick="myfunction(this)">
+        <img src="images2.jpg" onclick="myfunction(this)">
+        <img src="images.jpg" onclick="myfunction(this)">
+        <img src="images2.jpg" onclick="myfunction(this)">
+        <img src="images.jpg" onclick="myfunction(this)">
+        
+    </div>
+    <div class="image-container">
+        <img id="imagebox" src="images.jpg">
+    </div>
+    <div class="desc">
+        <h1>Description</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
+        <h1>Contact info</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  </p>
+    </div>
+</div>
+<div class="mapss">
+    <h1>Location</h1>
+
+    <p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.636801362051!2d38.79503351478637!3d9.005527793537151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMDAnMTkuOSJOIDM4wrA0Nyc1MC4wIkU!5e0!3m2!1sen!2sus!4v1611589540132!5m2!1sen!2sus" width="1200" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </p>
+</div>
+
+<script>
+    function myfunction(smallimg){
+        var fullimg = document.getElementById("imagebox");
+        fullimg.src = smallimg.src;
+    }
+</script>
+
+
+</body>
+</html>
+
